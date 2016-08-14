@@ -1,3 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 html {
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: #2C3E50;
+}
+
+#container {
+	
+}
+
+#container #content {
+	height: 100vh;
 	text-align: center;
+}
+
+h1 {
+	color: #ECECEC;
+	font-weight: 800;
+	font-size: 3em;
+	position: relative;
+	top: 35%;
+	text-transform: uppercase;
+}
+
+h2 {
+	position: relative;
+	top: 36%;
+	font-size: 1.2em;
+	color: #ECECEC;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+span.line-1, 
+span.line-2 {
+	display: block;
+	width: 30%;
+	height: 3px;
+	background-color: #ECECEC;
+	margin: 0 auto;
+}
+
+span.line-1 {
+	position: relative;
+	top: 33%;
+}
+
+span.line-2 {
+	position: relative;
+	top: 38%;
+}
+
+#link {
+	position: relative;
+	top: 41%;
+}
+
+#link a {
+	color: rgba(30, 42, 54, 0.35);
+	text-decoration: none;
+	font-weight: 100;
+	text-transform: uppercase;
 }
